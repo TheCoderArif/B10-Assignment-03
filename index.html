@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio</title>
+
+    <!-- adding fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+      .manrope {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
+    </style>
+
+    <!-- Daisy UI cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/9e1603cae8.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="manrope bg-#e5e7eb" >
+    <main class="mx-6">
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><a>Home</a></li>
+                
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl "><i class=" justify-center item-center fa-solid fa-arrow-up rotate-45 rounded-full w-7 h-7 justify-center items-center  bg-lime-400"></i> Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="font-bold">Home</a></li>
+              <li>
+                
+              </li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <!-- <div class="navbar-end">
+            <a class="btn m-0"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div> -->
+          <!-- <div class="navbar-end">
+            <a class="btn mx-0"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div> -->
+          <div class="navbar-end mx-0">
+            <a class="btn mx-0"><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+          <div class="navbar-end">
+            <button class="btn bg-lime-400 bg-lime-400 mr-3">Book Consult <div class=" "><i class=" fa-solid fa-arrow-up rotate-45 "></i></div></button>
+            <!-- <a class="lg:hidden "><i class=" rounded btn justify-center item-center self-center fa-solid fa-bars "></i></a> -->
+            <div class="navbar-end">
+              <a class="btn lg:hidden"><i class="fa-solid fa-bars"></i></a>
+            </div>
+          </div>
+          
+        </div>
+      </nav>
+    </main>
+  </body>
+</html>
