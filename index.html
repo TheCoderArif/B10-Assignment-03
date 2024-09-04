@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,11 +26,14 @@
     />
     <!-- Tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <!-- font awesome cdn -->
-    <script src="https://kit.fontawesome.com/9e1603cae8.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/9e1603cae8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body class="manrope bg-#e5e7eb" >
+  <body class="manrope bg-#e5e7eb">
     <main class="mx-6">
       <nav>
         <div class="navbar bg-base-100">
@@ -42,30 +45,36 @@
                   class="h-5 w-5"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor">
+                  stroke="currentColor"
+                >
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16" />
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
                 </svg>
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
                 <li><a>Home</a></li>
-                
+
                 <li><a>Item 3</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl "><i class=" justify-center item-center fa-solid fa-arrow-up rotate-45 rounded-full w-7 h-7 justify-center items-center  bg-lime-400"></i> Rinterio</a>
+            <a class="btn btn-ghost text-xl"
+              ><i
+                class="justify-center item-center fa-solid fa-arrow-up rotate-45 rounded-full w-7 h-7 justify-center items-center bg-lime-400"
+              ></i>
+              Rinterio</a
+            >
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
               <li><a class="font-bold">Home</a></li>
-              <li>
-                
-              </li>
+              <li></li>
               <li><a>Services</a></li>
               <li><a>Portfolio</a></li>
               <li><a>Blog</a></li>
@@ -79,47 +88,117 @@
             <a class="btn mx-0"><i class="fa-solid fa-cart-shopping"></i></a>
           </div> -->
           <div class="navbar-end mx-0">
-            <a class="btn mx-0"><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="btn mx-0"
+              ><i class="fa-solid fa-magnifying-glass"></i
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
           </div>
           <div class="navbar-end">
-            <button class="btn bg-lime-400 bg-lime-400 mr-3">Book Consult <div class=" "><i class=" fa-solid fa-arrow-up rotate-45 "></i></div></button>
+            <button class="btn bg-lime-400 bg-lime-400 mr-3">
+              Book Consult
+              <div class=" ">
+                <i class="fa-solid fa-arrow-up rotate-45"></i>
+              </div>
+            </button>
             <!-- <a class="lg:hidden "><i class=" rounded btn justify-center item-center self-center fa-solid fa-bars "></i></a> -->
             <div class="navbar-end">
               <a class="btn lg:hidden"><i class="fa-solid fa-bars"></i></a>
             </div>
           </div>
-          
         </div>
       </nav>
-      <section>
 
-        <div class="flex flex-col justify-center content-center place-content-center text-center">
-          <div class=" px-auto items-center justify-center">
-            <img class=" px-auto mx-auto   lg:w-2/4" src="assets/banner.png" alt="">
+      <!-- banner section -->
+      <section>
+        <div
+          class="flex flex-col justify-center content-center place-content-center text-center"
+        >
+          <div class="px-auto items-center justify-center">
+            <img
+              class="px-auto mx-auto lg:w-2/4"
+              src="assets/banner.png"
+              alt=""
+            />
           </div>
-          <h1 style=" text-9xl">A barn house of this design has a striking appearance</h1>
-          <p style="text-20xl"> The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+          <h1 class="text-4xl">
+            A barn house of this design has a striking appearance
+          </h1>
+          <br />
+          <p>
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <br />
           <div class="button">
-            <button class="btn bg-lime-300">View Details <i class="fa-solid fa-arrow-up rotate-45"></i> </button>
+            <button class="btn bg-lime-300 font-bold">
+              View Details <i class="fa-solid fa-arrow-up rotate-45"></i>
+            </button>
           </div>
         </div>
       </section>
-      <p>Hey</p>
+
       <!-- about section -->
-       <section class="bg-zinc-300">
-        <div class="mt-5 pt-10 pl-10 bg-red-400">
-
-          <img class="" src="assets/Vector.png" alt="">
+      <section class="bg-slate-50 mb-20">
+        <div class="mt-5 pt-10 pl-10">
+          <img class="" src="assets/Vector.png" alt="" />
         </div>
-        <!-- text -->
-         <div >
-          <p style="text-2xl font-bold rotate-45 bg-zinc-100">Hello hhhhh</p>
-         </div>
-         <!-- image -->
-          <div>
 
+        <!-- text and image -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 px-20 gap-4">
+          <!-- text section -->
+          <div>
+            <div class="place-content-center">
+
+              <button class="btn btn-xs ">
+                <i class="fa-solid fa-arrow-right"></i> About Us
+              </button>
+            </div>
+            <h1 class="text-3xl">We design thoughtful, liveable spaces</h1>
+            <br />
+            <p>
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+
+            <!-- first card -->
+            <div class="bg-white rounded">
+              <div class="flex p-2 gap-2">
+                <img src="assets/commercial.png" alt="" />
+                <div>
+                  <h5 class="font-bold">Commercial</h5>
+                  <p>
+                    The barn house captivates with its blend of rustic charm and
+                    modern.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <br>
+            
+            <!-- second card -->
+            <div class="bg-white rounded">
+              <div class="flex p-2 gap-2">
+                <img src="assets/residential.png" alt="" />
+                <div>
+                  <h5 class="font-bold">Residential</h5>
+                  <p>
+                    The barn house captivates with its blend of rustic charm and modern.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-       </section>
+           
+
+          <!-- image section -->
+          <div>
+            <img src="assets/Rectangle.png" alt="" />
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
